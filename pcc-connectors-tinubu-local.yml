@@ -1,0 +1,11 @@
+spring:
+  config:
+    activate:
+      on-profile: local
+  
+endpoint:
+  tinubu:
+    url: http://localhost:1001/v1/tinubu
+    user: 'cescews'
+    pass: 'beta0987'
+    service: "submitRequest"
