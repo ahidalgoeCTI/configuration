@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 spring:
   config:
     activate:
@@ -9,3 +10,16 @@ endpoint:
     user: 'cescews'
     pass: 'tinubu'
     service: "submitRequest"
+=======
+spring:
+  config:
+    activate:
+      on-profile: prod
+
+endpoint:
+  tinubu:
+    url: https://rmc.tinubu.com/pegase/servlet/WsServlet
+    user: 'cescews'
+    pass: 'tinubu'
+    service: "submitRequest"
+>>>>>>> 432969fafb2f9ebe279d1d1efc159a4db9fa7ce0
