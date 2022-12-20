@@ -1,0 +1,11 @@
+spring:
+  config:
+    activate:
+      on-profile: dev
+
+endpoint:
+  tinubu:
+    url:  http://pcc-mockito-dev.desarrollo-cesce/v1/tinubu
+    user: 'cescews'
+    pass: 'beta0987'
+    service: "submitRequest"

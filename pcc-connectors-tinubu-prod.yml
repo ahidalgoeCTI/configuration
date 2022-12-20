@@ -1,0 +1,11 @@
+spring:
+  config:
+    activate:
+      on-profile: prod
+
+endpoint:
+  tinubu:
+    url: https://rmc.tinubu.com/pegase/servlet/WsServlet
+    user: 'cescews'
+    pass: 'tinubu'
+    service: "submitRequest"
