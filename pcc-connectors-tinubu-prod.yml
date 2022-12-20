@@ -1,11 +1,11 @@
 spring:
   config:
     activate:
-      on-profile: local
-  
+      on-profile: prod
+
 endpoint:
   tinubu:
-    url: http://localhost:1001/v1/tinubu
+    url: https://rmc.tinubu.com/pegase/servlet/WsServlet
     user: 'cescews'
-    pass: 'beta0987'
+    pass: 'tinubu'
     service: "submitRequest"
